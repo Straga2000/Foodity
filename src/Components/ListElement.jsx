@@ -3,8 +3,6 @@ import '../Styles/ListElement.css';
 
 export default class ListElement extends Component {
     state = {
-
-    }
     }
 
     render() {

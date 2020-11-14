@@ -7,7 +7,7 @@ import LoginPage from './LoginPage';
 import HomePage from './HomePage';
 import SignupPage from './SignupPage';
 import ForgotPass from './ForgotPassPage';
-import ProfileConsumer from './ProfileConsumer';
+import ProfileConsumerPage from './ProfileConsumerPage';
 ///TODO Add links to pages with react link
 
 export default class App extends Component {
@@ -23,7 +23,7 @@ export default class App extends Component {
                     <Route path={"/home"} component={HomePage}/>
                     <Route path={"/signup"} component={SignupPage}/>
                     <Route path={"/forgot"} component={ForgotPass}/>
-                    <Route path={"/profileconsumer"} Component={ProfileConsumer}/>
+                    <Route path={"/profileconsumer"} component={ProfileConsumerPage}/>
                 </Switch>
             </Router>
         );

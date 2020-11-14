@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 
 export default class HomePage extends Component {
-    state = {}
-
+    state={}
     render() {
         return (
-            <h1>Home page!</h1>
+            <h1>Hello</h1>
         );
     }
 }
