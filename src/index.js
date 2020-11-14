@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Router, browserHistory} from 'react-router';
 
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import ListElement from "./Components/ListElement";
+import App from './Components/App'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ListElement />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App/>,
+    document.getElementById('root')
 );

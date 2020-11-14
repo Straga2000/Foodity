@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-
-import 'bootstrap/dist/css/bootstrap.css';
 import '../Styles/ListElement.css';
 
-
-class ListElement extends Component {
+export default class ListElement extends Component {
+    state={}
     render() {
         return (
             <h1>Hello</h1>
         );
     }
 }
-
-export default ListElement;
