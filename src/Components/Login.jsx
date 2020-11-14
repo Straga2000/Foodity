@@ -39,7 +39,7 @@ export default class Login extends Component {
                                                 <div
                                                     className="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
                                                     <a className="small" href="password.html">Forgot Password?</a>
-                                                    <Link to="/home" className="btn btn-primary">Login</Link>
+                                                    <Link to="/profileConsumer" className="btn btn-primary">Login</Link>
                                                 </div>
                                             </form>
                                         </div>
