@@ -7,27 +7,27 @@ export default class Profile extends Component {
             <div className="pb-2">
                 <div className="media align-items-end profile-head">
                     <div className="profile mt-2 d-flex">
-                        <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" alt="..." className="rounded mb-1 mt-1 img-thumbnail w-25"/>
+                        <img src="https://images.pexels.com/photos/235725/pexels-photo-235725.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="..." className="rounded mb-1 mt-1 img-thumbnail w-25"/>
                         <div className="flex-column">
                             <div className="ml-3 mb-3">
-                                <h4 className="mt-0 mb-0">Mark Williams</h4>
+                                <h4 className="mt-0 mb-0">Bioferma</h4>
                                 <p className="small mt-0">
                                     <i className="fas fa-map-marker-alt mr-1"></i>
-                                    New York
+                                    Teleorman, Rosiorii de Vede
                                 </p>
                             </div>
                             <div className="ml-3">
                                 <ul className="list-inline">
                                     <li className="list-inline-item mr-3">
-                                        <small className="text-muted">Favorites</small>
+                                        <small className="text-muted">Vegetables</small>
                                         <h5 className="font-weight-bold m-0 d-block">30</h5>
                                     </li>
                                     <li className="list-inline-item mr-3">
-                                        <small className="text-muted">Watchlist</small>
+                                        <small className="text-muted">Fruits</small>
                                         <h5 className="font-weight-bold m-0 d-block">20</h5>
                                     </li>
                                     <li className="list-inline-item ">
-                                        <small className="text-muted">Following</small>
+                                        <small className="text-muted">Others</small>
                                         <h5 className="font-weight-bold m-0 d-block">340</h5>
                                     </li>
                                 </ul>

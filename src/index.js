@@ -71,10 +71,10 @@ function writeJSONFile(content) {
   );
 }*/
 
-function getShop(location, radius, objects, priceDistance) {
+/*function getShop(location, radius, objects, priceDistance) {
     var priceMin = 0;
     var idealShop;
-    if (radius > 10) {
+    if (radius < 10) {
         var shops = location.getShops();
         for (const shop in shops) {
             var price = shop.getObjects(objects) + priceDistance;
@@ -87,7 +87,7 @@ function getShop(location, radius, objects, priceDistance) {
     }
     return idealShop;
 }
-
+*/
 ReactDOM.render(
     <App/>,
     document.getElementById('root')
