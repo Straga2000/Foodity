@@ -21,12 +21,12 @@ export default class List extends Component {
     // }
 
     render() {
-        ///const {productInfo}  = this.state;
+        const {productInfo}  = this.state;
         console.log(this.state.products);
         return (
             <div className="col-lg-12 card">
                 <div className="card-title mb-0 mt-3 ml-3 d-flex row">
-                    <h4 className="mr-5">Stock</h4>
+                    <h4 className="mr-5">Products</h4>
                     <div className="d-flex row">
                         <button className="btn btn-primary mr-3">Add product</button>
                         <button className="btn btn-primary mr-3">Delete product</button>

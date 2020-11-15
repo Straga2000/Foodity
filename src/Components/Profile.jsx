@@ -4,11 +4,14 @@ export default class Profile extends Component {
     state={
         img : this.props.img,
         name: this.props.name,
-        location : this.props.location
+        location : this.props.location,
+        cat1: this.props.cat1,
+        cat2: this.props.cat2,
+        cat3: this.props.cat3
     }
     render() {
 
-        const {img, name, location} = this.state
+        const {img, name, location, cat1, cat2, cat3} = this.state
 
         return (
             <div className="pb-2">
@@ -26,15 +29,15 @@ export default class Profile extends Component {
                             <div className="ml-3">
                                 <ul className="list-inline">
                                     <li className="list-inline-item mr-3">
-                                        <small className="text-muted">Vegetables</small>
+                                        <small className="text-muted">{cat1}</small>
                                         <h5 className="font-weight-bold m-0 d-block">30</h5>
                                     </li>
                                     <li className="list-inline-item mr-3">
-                                        <small className="text-muted">Fruits</small>
+                                        <small className="text-muted">{cat2}</small>
                                         <h5 className="font-weight-bold m-0 d-block">20</h5>
                                     </li>
                                     <li className="list-inline-item ">
-                                        <small className="text-muted">Others</small>
+                                        <small className="text-muted">{cat3}</small>
                                         <h5 className="font-weight-bold m-0 d-block">340</h5>
                                     </li>
                                 </ul>
