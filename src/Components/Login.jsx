@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 import '../Styles/Login.css'
 ///TODO orice link trebuie inlocuti cu link de react
 export default class Login extends Component {
-    state={}
+    state={
+        type : this.props.type
+    }
     render() {
         return (
             <div id="layoutAuthentication">

@@ -34,7 +34,7 @@ export default class ProfileConsumerPage extends Component {
                         <div className="mb-3"></div>
                         <Description desc = "Imi place sa gandesc si sa mananc sanatos."/>
                         <div className="mb-3"></div>
-                        <Gallery/>
+                        {/*<Gallery/>*/}
                         <div className="mb-3"></div>
                         <List/>
                     </div>

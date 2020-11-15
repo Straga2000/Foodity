@@ -33,7 +33,7 @@ export default class ProfileSellerPage extends Component {
                             cat3 = "Watchlist"
                         />
                         <div className="mb-3"></div>
-                        <Description desc = "Bioferma @biofermalaputere"/>
+                        <Description desc = "Bioferma instagram: @biofermalaputere"/>
                         <div className="mb-3"></div>
                         <Gallery/>
                         <div className="mb-3"></div>

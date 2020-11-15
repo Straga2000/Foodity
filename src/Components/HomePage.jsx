@@ -18,7 +18,8 @@ export default class HomePage extends Component {
                                 </div>
                                 <div className="card-body form-group d-flex flex-column align-items-center justify-content-between mt-2 mb-2 p-1">
                                     <img src={shopping} className="img-fluid w-75" alt="Responsive image"></img>
-                                    <Link to="/login" className="btn btn-primary m-2 w-75">Login</Link>
+                                    <Link to="/login" className="btn btn-primary m-2 w-75">Login as buyer</Link>
+                                    <Link to="/login" className="btn btn-primary m-2 w-75">Login as seller</Link>
                                     <Link to="/signup" className="btn btn-primary m-2 w-75">Signup</Link>
                                 </div>
                             </div>

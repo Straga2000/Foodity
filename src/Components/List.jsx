@@ -30,7 +30,8 @@ export default class List extends Component {
                     <div className="d-flex row">
                         <button className="btn btn-primary mr-3">Add product</button>
                         <button className="btn btn-primary mr-3">Delete product</button>
-                        <button className="btn btn-primary">Change product</button>
+                        <button className="btn btn-primary mr-3">Change product</button>
+                        <button className="btn btn-primary">Find shop</button>
                     </div>
                 </div>
                 <div className="card-body">

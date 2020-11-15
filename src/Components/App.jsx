@@ -19,7 +19,7 @@ export default class App extends Component {
 
             <Router>
                 <Switch>
-                    <Route exact path={"/"} component={LoginPage}/>
+                    <Route exact path={"/"} component={HomePage}/>
                     <Route path={"/login"} component={LoginPage}/>
                     <Route path={"/home"} component={HomePage}/>
                     <Route path={"/signup"} component={SignupPage}/>
