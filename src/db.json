@@ -1,0 +1,121 @@
+{
+    "products": [
+      {
+        "id": "5eadf350-105e-11ea-983f-f5983827844a",
+        "name": "AFFENPINSCHER",
+        "img": "https://images.dog.ceo/breeds/affenpinscher/n02110627_8099.jpg",
+      },
+      {
+        "id": "71ed9fb0-105e-11ea-983f-f5983827844a",
+        "name": "AKITA",
+        "img": "https://images.dog.ceo//breeds//akita//An_Akita_Inu_resting.jpg"
+      },
+      {
+        "id": "89256140-105e-11ea-983f-f5983827844a",
+        "name": "CHIHUAHUA",
+        "img": "https://images.dog.ceo/breeds/chihuahua/n02085620_7613.jpg"
+      },
+      {
+        "id": "898c1250-105e-11ea-983f-f5983827844a",
+        "name": "LHASA",
+        "img": "https://images.dog.ceo/breeds/lhasa/n02098413_7358.jpg"
+      },
+      {
+        "id": "8a7fc120-105e-11ea-983f-f5983827844a",
+        "name": "HOUND",
+        "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_2626.jpg"
+      }
+    ],
+    "people": [
+        {
+          "id": "5eadf350-105e-11ea-983f-f5983827844a",
+          "name": "AFFENPINSCHER",
+          "img": "https://images.dog.ceo/breeds/affenpinscher/n02110627_8099.jpg",
+          "email" : "exemple@gmail.com",
+          "category" : "seller",
+          "password" : "password112",
+          "budget" : "500",
+          "products" : [
+              "rosii", "banane"
+          ],
+          "watchlist" : [
+              "5eadf350-105e-11ea-983f-f5983827844a", "5eadf350-105e-11ea-983f-f5983827846a"
+          ],
+          "followers" : [
+            "5eadf350-105e-11ea-983f-f5983827844a", "5eadf350-105e-11ea-983f-f5983827846a"
+        ]
+        },
+        {
+          "id": "71ed9fb0-105e-11ea-983f-f5983827844a",
+          "name": "AKITA",
+          "img": "https://images.dog.ceo//breeds//akita//An_Akita_Inu_resting.jpg",
+          "email" : "exemple@gmail.com",
+          "category" : "seller",
+          "password" : "password112",
+          "budget" : "500",
+          "products" : [
+              "rosii", "banane"
+          ],
+          "watchlist" : [
+              "5eadf350-105e-11ea-983f-f5983827844a", "5eadf350-105e-11ea-983f-f5983827846a"
+          ],
+          "followers" : [
+            "5eadf350-105e-11ea-983f-f5983827844a", "5eadf350-105e-11ea-983f-f5983827846a"
+        ]
+        },
+        {
+          "id": "89256140-105e-11ea-983f-f5983827844a",
+          "name": "CHIHUAHUA",
+          "img": "https://images.dog.ceo/breeds/chihuahua/n02085620_7613.jpg",
+          "email" : "exemple@gmail.com",
+          "category" : "seller",
+          "password" : "password112",
+          "budget" : "500",
+          "products" : [
+              "rosii", "banane"
+          ],
+          "watchlist" : [
+              "5eadf350-105e-11ea-983f-f5983827844a", "5eadf350-105e-11ea-983f-f5983827846a"
+          ],
+          "followers" : [
+            "5eadf350-105e-11ea-983f-f5983827844a", "5eadf350-105e-11ea-983f-f5983827846a"
+        ]
+        },
+        {
+          "id": "898c1250-105e-11ea-983f-f5983827844a",
+          "name": "LHASA",
+          "img": "https://images.dog.ceo/breeds/lhasa/n02098413_7358.jpg",
+          "email" : "exemple@gmail.com",
+          "category" : "seller",
+          "password" : "password112",
+          "budget" : "500",
+          "products" : [
+              "rosii", "banane"
+          ],
+          "watchlist" : [
+              "5eadf350-105e-11ea-983f-f5983827844a", "5eadf350-105e-11ea-983f-f5983827846a"
+          ],
+          "followers" : [
+            "5eadf350-105e-11ea-983f-f5983827844a", "5eadf350-105e-11ea-983f-f5983827846a"
+        ]
+        },
+        {
+          "id": "8a7fc120-105e-11ea-983f-f5983827844a",
+          "name": "HOUND",
+          "img": "https://images.dog.ceo/breeds/hound-afghan/n02088094_2626.jpg",
+          "email" : "exemple@gmail.com",
+          "category" : "seller",
+          "password" : "password112",
+          "budget" : "500",
+          "products" : [
+              "rosii", "banane"
+          ],
+          "watchlist" : [
+              "5eadf350-105e-11ea-983f-f5983827844a", "5eadf350-105e-11ea-983f-f5983827846a"
+          ],
+          "followers" : [
+            "5eadf350-105e-11ea-983f-f5983827844a", "5eadf350-105e-11ea-983f-f5983827846a"
+        ]
+        }
+      ]
+  }
