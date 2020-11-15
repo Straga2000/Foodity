@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
 
 export default class Profile extends Component {
-    state={}
+    state={
+        img : this.props.img,
+        name: this.props.name,
+        location : this.props.location
+    }
     render() {
+
+        const {img, name, location} = this.state
+
         return (
             <div className="pb-2">
                 <div className="media align-items-end profile-head">
                     <div className="profile mt-2 d-flex">
-                        <img src="https://images.pexels.com/photos/235725/pexels-photo-235725.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="..." className="rounded mb-1 mt-1 img-thumbnail w-25"/>
+                        <img src={img} alt="..." className="rounded mb-1 mt-1 img-thumbnail w-25"/>
                         <div className="flex-column">
                             <div className="ml-3 mb-3">
-                                <h4 className="mt-0 mb-0">Bioferma</h4>
+                                <h4 className="mt-0 mb-0">{name}</h4>
                                 <p className="small mt-0">
                                     <i className="fas fa-map-marker-alt mr-1"></i>
-                                    Teleorman, Rosiorii de Vede
+                                    {location}
                                 </p>
                             </div>
                             <div className="ml-3">
